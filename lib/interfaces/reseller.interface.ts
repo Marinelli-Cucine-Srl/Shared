@@ -20,6 +20,9 @@ export interface Reseller {
   websiteUrl: string;
   /** Countries in which the user can sell */
   countries: string[];
-  /** Countries in which the user can sell */
+
+  /** Feature flag: show Marinelli and MIMO logo in the homepage */
   show_mrn_logos: boolean;
+  /** Feature flag: allows the app to send order data from the iframe to the host site */
+  allow_message_to_host: boolean;
 }
