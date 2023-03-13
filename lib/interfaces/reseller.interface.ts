@@ -23,6 +23,8 @@ export interface Reseller {
 
   /** Feature flag: show Marinelli and MIMO logo in the homepage */
   show_mrn_logos: boolean;
+  /** Feature flag: determines if Planner is embedded in an iframe */
+  is_embedded_in_iframe: boolean;
   /** Feature flag: allows the app to send order data from the iframe to the host site */
   allow_message_to_host: boolean;
 }
